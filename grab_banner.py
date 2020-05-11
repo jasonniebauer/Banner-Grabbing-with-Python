@@ -5,8 +5,8 @@ import socket
 socket.setdefaulttimeout(2)
 s = socket.socket()
 
-target_ip = input('Enter address: ')
-target_port = int(input('Enter port: '))
+target_ip = input("Enter address: ")
+target_port = int(input("Enter port: "))
 
 try:
     # Connect to the target IP address
